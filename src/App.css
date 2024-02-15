@@ -1,0 +1,63 @@
+/*header*/
+.header{
+  
+  padding:10px 20px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+/*body*/
+.news-articles{
+  width: 100%;
+  padding: 20px;
+  width: 100%;
+  background-color: gainsboro;
+  display: flex;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+p{
+  margin: 0;
+}
+
+
+.news{
+  width:22%;
+  height:auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.news-img{
+  width: 100%;
+  height: 170px;
+  /* background-color: blue; */
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.news-img img{
+  width: 100%;
+}
+.source{
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+}
